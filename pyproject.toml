@@ -1,0 +1,22 @@
+[project]
+name = "demographic-test-images"
+version = "0.1.0"
+description = "Demographic test images from FairFace dataset"
+authors = [
+    {name = "Liquid AI"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=2.14.0",
+    "Pillow>=10.0.0",
+    "tqdm>=4.60.0",
+]
+
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
